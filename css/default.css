@@ -1,0 +1,232 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 14px/1.4 Georgia, serif;
+    background: #7f4f20;
+    background-image: url(../images/background-pattern.png);
+    background-repeat: repeat;
+}
+
+.group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.group { display: inline-block; clear: both; }
+/* start commented backslash hack \*/ * html .group { height: 1%; } .group { display: block; } /* close commented backslash hack */
+
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+/* Classes */
+.spacer {
+    padding: 2px 0;
+}
+.labels {
+	font-size:12px;
+}
+.more {
+    display: block;
+    text-decoration: none;
+    float:right;
+    text-align:left;
+    padding-right: 15px;
+    background: url(../images/postArrow.png) right no-repeat;
+    color: #d9d059;
+    margin-right: 8px;
+}
+    .more:hover {
+        color: white;
+    }
+/* Page */
+#page-wrap {
+    width: 780px;
+    margin: 0 auto;
+    background: #ad7934;
+    margin-top: 15px;
+}
+/* main-content */
+#main-content {
+    float: right;
+    width: 549px;
+    background: #9d6a2d;
+    min-height: 600px;
+    height: auto;
+}
+	#main-content header {
+	    background-image: url(../images/logo.png);
+	    width: 300px;
+	    height: 285px;
+	    margin: 0 35px;
+	}
+	#main-content h2 {
+		margin: 0 150px;
+		color: white;
+		font-family: Impact, Charcoal, sans-serif;
+		font-size: 30px;
+		letter-spacing: 2px;
+		text-transform: capitalize;
+		text-shadow: 0.2em 0.2em 0.2em black;
+	}
+    #main-content .posts {
+        margin: 30px 20px;
+    }
+        #main-content .posts p, aside p, #main-content .posts ol {
+            color: #ffc16e; 
+        }
+        #main-content .posts ol {
+        	margin: inherit;
+        	font-size: 15px;
+        }
+	        #main-content .posts ol li {
+	        	margin: 5px 0;
+	        }
+		        #main-content .posts ol li p {
+		        	margin: 0 -5px;
+		        	font-size: 13px;
+		        }
+        #main-content .posts p {
+            margin: 0 5px;
+        }
+        #main-content .posts h1, aside h3 {
+            font-family: Garamond, serif;
+            color: yellow;
+            text-transform: capitalize;
+        }
+        #main-content .posts h1 {
+            font-size: 31px;
+        }
+            #main-content .posts h1 em, aside h3 em {
+                color: white;
+                text-transform: lowercase;
+            }
+            #main-content .posts h1 em {
+                font-size:26px;
+            }
+	    /* table */      
+        #main-content .posts table {
+        	border-width: thin;
+            border-style: outset;
+        }
+	        #main-content .posts table td {
+	        	border-width: thin;
+	            border-style: inset;
+	            min-width: 77px;
+	            text-align: center;
+	        }
+		        #main-content .posts table td h3 {
+		        	color: white;
+		        }
+		        #main-content .posts table td a {
+		        	color: inherit;
+		        }
+			#main-content .posts .errors {
+				font-size: 18px;
+			}
+		 /* buttons */
+        #main-content .posts #send {
+        	margin: 5px auto;
+        	float: none;
+        	width: 82px;
+        	background-image: url(../images/send.png);
+        }
+/* aside */        
+aside {
+    float: left;
+    width: 231px;
+}
+    aside h3 {
+        font-size: 22px;
+        text-align: center;
+        color: #522d09;
+    }
+        aside h3 em {
+            font-size: 16px;
+        }
+    aside #cards {
+        margin: 15px 50px;
+    }
+    aside #members {
+        width: 224px;
+        min-height: 110px;
+        height: auto;
+        margin: 0 3px;
+        background: #a56f26;
+    }
+        aside #members .box {
+            float: right;
+            margin: 0 2px;
+            width: 61%;
+        }
+        aside #members .btns,  #main-content .posts .btns {
+            display:block;
+            background: transparent;
+            border: none;
+            width: 62px;
+            height: 22px;
+            float: right;
+            margin: 2px 5px;
+        }
+        aside #members .btns:hover, #main-content .posts .btns:hover {
+            cursor:pointer;
+        }
+		aside .errors, #main-content .posts .errors {
+			color: red;
+			text-shadow: 0.2em 0.2em 0.2em #333;
+			text-transform: capitalize;
+			text-align: center;
+			padding: 5px 0;
+		}
+        	aside #members .errors {
+        		font-size: 12px;
+        	}
+            aside #members #signin {
+                background-image: url(../images/signin.png);
+            }
+            aside #members #signup {
+                background-image: url(../images/signup.png);
+            }
+	        aside #members .profile {
+	            padding: 5px 0;
+	        }
+		        aside #members .profile img {
+		        	display: block;
+		            margin: 0 auto;
+		            border-radius: 5px;
+		        }
+		        aside #members .profile p {
+		        	text-align: center;
+		        }
+		      
+    aside nav {
+        padding: 5px;
+    }
+        aside nav ul {
+            list-style: none;
+        }
+            aside nav ul li a {
+                display: block;
+                padding: 5px 25px;
+                color: white;
+                font-size: 12px;
+                text-decoration: none;
+                background: url(../images/menuArrow.png) left no-repeat;
+            }
+                aside nav ul li a:hover {
+                    color: #f8f979;
+                }
+    aside #services {
+        padding: 5px;
+    }
+        aside #services p {
+            font-size: 12px;
+            padding-left: 10px;
+        }
+/* footer */
+footer { 
+    width: 780px;
+    margin: 0 auto 20px;
+    color: white;
+    letter-spacing: 1.5px; 
+    text-align: center;
+}
