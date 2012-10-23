@@ -1,0 +1,18 @@
+<div class="posts">
+    <h1>Create <em>your own account</em></h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elita mliepil.
+        Secon sectetuer adipiscing elit. Nullam quis tul sit amet,
+        consec etuer adipiscing elit. 
+    </p>
+    <a href="index.jsp?page=homepage&post=create" class="more">read more</a>
+</div>
+<div class="posts">
+    <h1>Manage <em>your financial life</em></h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elita mliepil.
+        Secon sectetuer adipiscing elit. Nullam quis tul sit amet,
+        consec etuer adipiscing elit. 
+    </p>
+    <a href="index.jsp?page=homepage&post=manage" class="more">read more</a>
+</div>
