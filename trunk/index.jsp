@@ -169,9 +169,8 @@
             <div id="services">
 	            <h3>Services <em>Overviews</em></h3>
 	            <p>
-	                Lorem ipsum dolor sit amet, consectetuer adipiscing elita mliepil.
-	                Secon sectetuer adipiscing elit. Nullam quis tul sit amet,
-	                consec etuer adipiscing elit. 
+				    HackMe provides you transferring money to friends and family<br>
+				    using their code number without paying any fee.
 	            </p>
 	            <a href="index.jsp?page=homepage&post=services" class="more">read more</a>
             </div><!-- End services -->
