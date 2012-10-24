@@ -1,18 +1,16 @@
 <div class="posts">
-    <h1>Create <em>your own account</em></h1>
+    <h1>HackMe <em>Safe And Secure</em></h1>
     <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elita mliepil.
-        Secon sectetuer adipiscing elit. Nullam quis tul sit amet,
-        consec etuer adipiscing elit. 
+    	With HackMe you have a safe and secure account <br />
+    	because your financial information is securely stored on our servers.
     </p>
-    <a href="index.jsp?page=homepage&post=create" class="more">read more</a>
+    <a href="index.jsp?page=homepage&post=security" class="more">read more</a>
 </div>
 <div class="posts">
-    <h1>Manage <em>your financial life</em></h1>
+    <h1>About <em>The Project</em></h1>
     <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elita mliepil.
-        Secon sectetuer adipiscing elit. Nullam quis tul sit amet,
-        consec etuer adipiscing elit. 
+    	I made this project for my practical engineering studies,<br />
+		This project is very good for training web penetration testing (OWASP TOP 10 Vulnerabilities).
     </p>
-    <a href="index.jsp?page=homepage&post=manage" class="more">read more</a>
+    <a href="index.jsp?page=homepage&post=about" class="more">read more</a>
 </div>
