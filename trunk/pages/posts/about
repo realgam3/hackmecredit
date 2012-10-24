@@ -1,7 +1,7 @@
 <div class="posts">
-    <h1>Create <em>your own account</em></h1>
+    <h1>HackMe <em>Safe And Secure</em></h1>
     <p>
-    	I made this project for my practical engineering studies,<br />
+		I made this project for my practical engineering studies,<br />
 		This project is very good for training web penetration testing (OWASP TOP 10 Vulnerabilities).<br />
 		The best ways to work with HackMe Credit is to install Firefox(with plugins) or HconSTF and Burpsuite.<br />
 		Its recommended to install HackMe Credit on Virtual Machine (VMware / Virtual Box) and not on personal computer because its not secured.
