@@ -15,7 +15,7 @@ public class Mysql {
 		
 		try {
 		Class.forName("com.mysql.jdbc.Driver").newInstance();
-		connection = DriverManager.getConnection(connectionURL, "root", "W0W3bs");
+		connection = DriverManager.getConnection(connectionURL, "root", "hackme");
 		statement = connection.createStatement();
 		} catch (Exception e) {
 			System.out.println("error in connecting\n" + e.toString());
